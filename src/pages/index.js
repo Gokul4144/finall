@@ -118,6 +118,76 @@ export default function Home() {
             color: #aaa;
             margin-top: 20px;
           }
+
+          /* Responsive Styles */
+          @media (max-width: 768px) {
+            .navbar {
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 10px;
+            }
+
+            #MenuItems {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+            }
+
+            .search-bar {
+              width: 100%;
+              flex-direction: column;
+              align-items: stretch;
+            }
+
+            .search-bar input {
+              width: 100%;
+            }
+
+            .search-bar button {
+              width: 100%;
+              margin-top: 5px;
+            }
+
+            .row {
+              flex-direction: column !important;
+              text-align: center;
+            }
+
+            .col-2,
+            .col-3,
+            .col-4 {
+              width: 100% !important;
+              margin-bottom: 20px;
+            }
+
+            .offer .row,
+            .testimonial .row {
+              flex-direction: column;
+              text-align: center;
+            }
+
+            .offer-img {
+              width: 100%;
+              max-width: 300px;
+              margin: auto;
+            }
+
+            .right-icons {
+              display: flex;
+              flex-direction: row;
+              gap: 10px;
+              flex-wrap: wrap;
+            }
+
+            .footer-col {
+              width: 100%;
+            }
+
+            .row-f {
+              flex-direction: column;
+              gap: 20px;
+            }
+          }
         `}</style>
       </Head>
 
