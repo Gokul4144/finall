@@ -12,11 +12,11 @@ export default function Home() {
 
     if (term.includes('hair')) {
       router.push('/Hairgrowth');
-    } else if (term.includes('skin')) {
+    } else if (term.includes('maleic')) {
       router.push('/Maleicbond');
     } else if (term.includes('body')) {
       router.push('/Maleicbonds');
-    } else if (term.includes('lip')) {
+    } else if (term.includes('lipbalm')) {
       router.push('/LAscorbicLipBalm');
     } else {
       alert('Product not found!');
